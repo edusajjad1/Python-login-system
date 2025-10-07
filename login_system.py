@@ -38,14 +38,15 @@ while attempts_left > 0:
     else:
         
         attempts_left -= 1
-        print("❌ Invalid username or password. Please try again.")
+        print(" Invalid username or password. Please try again.")
 
 else:
     print("\n==============================")
-    print("🔒 Too many failed attempts. Your account is now locked for security.")
+    print(" Too many failed attempts. Your account is now locked for security.")
     
     user_data.clear()
     
     print("User data has been deleted.")
     print(f"Current data state: {user_data}")
+
     print("==============================")
