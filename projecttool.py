@@ -53,7 +53,7 @@ def check_password(password):
 
             # تم تعديل رسالة الخطأ لتكون أوضح
 
-            print(" كلمة المرور مسربة.")
+            print( "كلمة المرور مبيوكة حبيبي ")
 
             return
 
